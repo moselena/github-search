@@ -3,11 +3,11 @@ import { NavLink } from 'react-router-dom'
 
 export const Navbar = () => (
     <nav className="navbar navbar-dark bg-primary navbar-expand-lg">
-       <div class="container-fluid">
+       <div className="container-fluid">
             <div className="navbar-brand">
                 Github Search
             </div>
-            <div class="collapse navbar-collapse">
+            <div className="collapse navbar-collapse">
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <NavLink exact to="/" className="nav-link">Main</NavLink>
